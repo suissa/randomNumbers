@@ -1,6 +1,6 @@
 'use strict'
 
-const create = require('./randomEvenNumbers')
+const create = require('./randomNumbers')
 // const create = require('even-random-numbers')
 const arr = []
 
