@@ -1,6 +1,6 @@
 {
   "name": "random-numbers",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create random numbers easily",
   "main": "randomNumbers.js",
   "scripts": {
