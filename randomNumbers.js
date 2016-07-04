@@ -4,4 +4,4 @@ function randomNumber(start, end) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-module.exports = { randomNumber }
+module.exports = { create: randomNumber }
