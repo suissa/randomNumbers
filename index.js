@@ -1,12 +1,7 @@
 'use strict'
 
-const create = require('./randomNumbers')
-// const create = require('even-random-numbers')
-const arr = []
+const randomNumbers = require('./randomNumbers')
 
-for(let i = 0; i < 10; i++) {
-  let even = create.randomEvenNumbers()
-  arr[i] = even
-}
-
-console.log('arr', arr)
+console.log('random', randomNumbers.create())
+console.log('random', randomNumbers.create(1,10))
+console.log('random', randomNumbers.create(99, 36489))
